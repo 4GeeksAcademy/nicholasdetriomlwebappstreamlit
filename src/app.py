@@ -59,7 +59,7 @@ if st.button("Predict"):
     data_processed = preprocess_input(val1, val2, val3, val4, val5)
 
     prediction = str(model.predict(data_processed)[0])
-    print("Prediction:", prediction)
+    # print("Prediction:", prediction)
     # pred_class = class_dict[prediction]
     st.write("Prediction:", prediction)
 
